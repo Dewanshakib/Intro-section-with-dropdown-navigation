@@ -173,11 +173,11 @@ main {
   font-size: 70px;
   width: 90%;
   color: var(--Almost-Black);
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 .info {
   font-size: 0.97rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   width: 79%;
   color: var(--Medium-Gray);
   margin-top: 1.5rem;
@@ -187,7 +187,7 @@ main {
   padding: 14px 22px;
   background: var(--Almost-Black);
   border-radius: 0.625rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
   outline: none;
   border: 1px solid var(--Almost-Black);
   color: var(--Almost-White);
@@ -204,7 +204,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 7rem;
   width: 90%;
 }
 .brands img{
