@@ -170,10 +170,10 @@ main {
   display: block;
 }
 .title {
-  font-size: 70px;
-  width: 90%;
+  font-size: 75px;
+  width: 95%;
   color: var(--Almost-Black);
-  margin-top: 10rem;
+  margin-top: 9rem;
 }
 .info {
   font-size: 0.97rem;
