@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <!-- for desktop navbar section -->
+        <header class="desktop">
+        <!-- logo section  -->
+            <img src="./images/logo.svg" alt="image">
+        <!-- Navbar section      -->
+            <div class="navlinks__login-regis__btn">
+                <div class="navlists">
+                    <div class="f-btn btn"><a href="#">Features<img src="./images/icon-arrow-down.svg" alt="arrow down" class="arw-down"></a>
+                        <div class="f__btn__sublinks">
+                            <a href="#"><img src="./images/icon-todo.svg" alt="image">Todo List</a>
+                            <a href="#"><img src="./images/icon-calendar.svg" alt="image">Calender</a>
+                            <a href="#"><img src="./images/icon-reminders.svg" alt="image">Reminders</a>
+                            <a href="#"><img src="./images/icon-planning.svg" alt="image">Planning</a>
+                        </div>
+                    </div>
+
+                    <div class="c-btn btn"><a href="#">Company<img src="./images/icon-arrow-down.svg" alt="arrow down" class="arw-down"></a>
+                        <div class="c__btn__sublinks">
+                            <a href="#">History</a>
+                            <a href="#">Our Team</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </div>
+                    <div><a href="#">Careers</a></div>
+                    <div><a href="#">About</a></div>
+                </div>
+
+                <div class="login__regis__btn">
+                    <a href="#">Login</a>
+                    <a href="#" class="cng-bdr">Register</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- for mobile navbar section -->
+
+        <header class="mobile">
+        <!-- logo section  -->
+            <img src="./images/logo.svg" alt="image" class="logo">
+        <!-- Navbar section      -->
+            <div class="bg-blur main"></div>
+            
+                <div class="navlinks__login-regis__btn-m main">
+                    <div class="navlists-m">
+                        <img src="./images/icon-close-menu.svg" alt="cross" class="cross">
+
+                        <div class="f-btn btn"><a href="#">Features<img src="./images/icon-arrow-down.svg" alt="arrow down" class="arw-down"></a>
+                            <div class="f__btn__sublinks-m">
+                                <a href="#"><img src="./images/icon-todo.svg" alt="image">Todo List</a>
+                                <a href="#"><img src="./images/icon-calendar.svg" alt="image">Calender</a>
+                                <a href="#"><img src="./images/icon-reminders.svg" alt="image">Reminders</a>
+                                <a href="#"><img src="./images/icon-planning.svg" alt="image">Planning</a>
+                            </div>     
+                        </div>
+                     
+                         
+                        <div class="c-btn btn"><a href="#">Company<img src="./images/icon-arrow-down.svg" alt="arrow down" class="arw-down"></a>
+                            <div class="c__btn__sublinks-m">
+                                <a href="#">History</a>
+                                <a href="#">Our Team</a>
+                                <a href="#">Blog</a>
+                            </div>   
+                        </div>
+                        
+
+
+                        <div><a href="#">Careers</a></div>
+                        <div><a href="#">About</a></div>
+                    </div>
+
+                    <div class="login__regis__btn-m">
+                        <a href="#">Login</a>
+                        <a href="#" class="cng-bdr">Register</a>
+                    </div>
+            </div>
+            
+            <img src="./images/icon-menu.svg" alt="menu" class="menu">
+            
+        </header>
+
+        <!-- Main Section  -->
+        <main>
+            <div class="wrapper__main">
+                <div class="text-content">
+                    <h1 class="title">Make remote work</h1>
+                    <p class="info">Get your team in sync, no matter your location. Streamline processes, 
+                        create team rituals, and watch productivity soar.</p>
+                    <a href="#" class="l-btn">Learn More</a>
+                        <div class="brands">
+                            <img src="./images/client-databiz.svg" alt="image">
+                            <img src="./images/client-audiophile.svg" alt="image">
+                            <img src="./images/client-meet.svg" alt="image">
+                            <img src="./images/client-maker.svg" alt="image">
+                        </div>
+                </div>
+    
+                    <img src="./images/image-hero-desktop.png" alt="image" class="bg-d">
+                    
+                    <img src="./images/image-hero-mobile.png" alt="image" class="bg-m">
+            </div>
+        </main>
+    </div>
+</body>
+</html>
